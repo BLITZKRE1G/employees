@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add User</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+
+<body>
+
+    <form action="#" th:action="@{index}" th:object="${employee}" method="post">
+        <br><br><br><br><br><br><br>
+        <label for="employee-id">Employee ID:</label>
+        <input type="text" name="employee-id" id="employee-id" placeholder="Employee ID:">
+        <br><br>
+        <label for="first-name">First Name:</label>
+        <input type="text" name="first-name" id="first-name" placeholder="First Name:">
+        <br><br>
+        <label for="middle-name">Middle Name:</label>
+        <input type="text" name="middle-name" id="middle-name" placeholder="Middle Name:">
+        <br><br>
+        <label for="last-name">Last Name:</label>
+        <input type="text" name="last-name" id="last-name" placeholder="Last Name:">
+        <br><br>
+        <p></p>
+        <input type="submit" value="Add User">
+    </form>
+</body>
+
+</html>

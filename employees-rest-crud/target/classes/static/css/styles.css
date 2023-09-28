@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: aquamarine;
+}
+
+a {
+    font-weight: 600;
+    font-size: x-large;
+    color: orange;
+}
+
+a:hover {
+    font-weight: 700;
+    font-size: xx-large;
+    color: greenyellow;
+}
+
+form {
+    font-size: larger;
+}
+
+input {
+    font-size: larger;
+}
+
+label {
+    font-size: larger;
+    font-weight: 400;
+}
+
+button {
+    border-radius: 10px;
+}
